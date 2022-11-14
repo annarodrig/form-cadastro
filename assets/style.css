@@ -12,6 +12,7 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
+    flex-grow: 1;
     margin: 1rem 2rem;
     padding: 1rem 2rem;
 }
@@ -24,7 +25,6 @@
     font-size: 20px;
     flex-direction:column;
     padding: 2rem;
-    width: 50vh;
 
 }
 
@@ -33,6 +33,9 @@
     flex-wrap: nowrap;
     gap: 140px;
 
+}
+.form-endereco_input{
+    display: flex;
 }
 
 
