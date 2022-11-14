@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Form-Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <section >
+            <form class="form-container">
+                <div class="container-titulo" >          
+                    <h1>Faça seu cadastro</h1>
+                </div>
+                <label for="nome">Nome*</label>
+                <input class="form-input" type="text" placeholder="seu nome" required>
+                <label for="email">Email*</label>
+                <input class="form-input" class="form-input" type="email" placeholder="seu@email.com" required>
+                <label for="telefone">Telefone</label>
+                <input class="form-input" type="tel" placeholder="xx-xxxx-xxxx">
+                <label for="estadoCivil" >Estado Civil</label>
+                <select name="estadoCivil" id="estadoCivil">
+                    <option value="solteiro">Solteiro(a)</option>
+                    <option value="casado">Casado(a)</option>
+                    <option value="divorciado">Divorciado(a)</option>
+                    <option value="viuvo">Viúvo(a)</option>
+                    <option value="separado">Separado(a)</option>
+                </select>
+                    <label for="logradouro">Logradouro*</label>
+                    <input class="form-input" type="text" required>
+                    <div class="form-endereco_label" >
+                        <label for="bairro">Bairro</label>
+                        <label for="numero">N°*</label>
+                    </div>
+                    <div class="form-endereco_input">
+                        <input class="form-endereco_input_bairro" type="text" required>
+                        <input class="form-endereco_input_numero" type="number" required>
+                    </div>
+                    <label for="estado">Estado*</label>
+                    <select id="estado" name="estado">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="EX">Estrangeiro</option>
+                </select>
+                    <label for="cidade">Cidade*</label>
+                    <input class="form-input" type="text" name="cidade" id="cidade" required>
+                    <label for="contato">Escolha uma forma de contato:</label>
+                    <label type="radio"><input type="radio">Email</label>
+                    <label type="radio"><input type="radio">Telefone</label>
+                    <label type="checkbox"><input type="checkbox" required>Li e concordo*</label>
+                    <button class="form-container_botao" type="submit">Enviar</button>
+                    <button class="form-container_botao"type="reset">Reiniciar</button>
+            </form>
+        </section>
+        <section>
+            <img class="container-imagem" src="assets/img/undraw_diary_re_4jpc.svg" alt="Garota morena com roupa roxa interagindo com um papel">
+        </section>
+    </div>
+</body>
+</html>
