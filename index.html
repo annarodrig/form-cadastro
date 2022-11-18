@@ -30,6 +30,8 @@
                 </select>
                     <label for="logradouro">Logradouro*</label>
                     <input class="form-input" type="text" required>
+                    <label for="cep">CEP*</label>
+                    <input type="number" required>
                     <div class="form-endereco_label" >
                         <label for="bairro">Bairro</label>
                         <label for="numero">N°*</label>
@@ -72,15 +74,15 @@
                     <label for="cidade">Cidade*</label>
                     <input class="form-input" type="text" name="cidade" id="cidade" required>
                     <label for="contato">Escolha uma forma de contato:</label>
-                    <label type="radio"><input type="radio">Email</label>
-                    <label type="radio"><input type="radio">Telefone</label>
-                    <label type="checkbox"><input type="checkbox" required>Li e concordo*</label>
+                    <label type="radio"><input name="form-input_radio" class="form-input_radio" type="radio">Email</label>
+                    <label type="radio"><input name="form-input_radio" class="form-input_radio" type="radio">Telefone</label>
+                    <label type="checkbox" for="termos" ><input name="form-input_termos" type="checkbox" class="for-input_termos" required>Li e concordo*</label>
                     <button class="form-container_botao" type="submit">Enviar</button>
                     <button class="form-container_botao"type="reset">Reiniciar</button>
             </form>
         </section>
-        <section>
-            <img class="container-imagem" src="assets/img/undraw_diary_re_4jpc.svg" alt="Garota morena com roupa roxa interagindo com um papel">
+        <section class="container-imagem">
+            <img src="assets/img/undraw_diary_re_4jpc.svg" alt="Garota morena com roupa roxa interagindo com um papel">
         </section>
     </div>
 </body>

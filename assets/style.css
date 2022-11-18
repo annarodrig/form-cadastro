@@ -12,19 +12,19 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    flex-grow: 1;
-    margin: 1rem 2rem;
-    padding: 1rem 2rem;
+    margin: 0.25rem 1rem;
+    padding: 0.25rem 1rem;
 }
 
 .form-container {
     background: #f5f3fc;
-    border: 20px solid #9667e0;
+    border: 18px solid #9667e0;
     display: flex;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 17px;
     flex-direction:column;
-    padding: 2rem;
+    margin: 2rem;
+    padding: 1rem;
 
 }
 
@@ -42,28 +42,45 @@
 input {
     background-color: #efe6fc;
     border-style: none;
-    margin: 1rem 1.50rem ;
-    padding: 1rem;
+    margin: 1rem ;
+    padding: 0.50rem;
 
 }
 
+.form-input_radio {
+    height: 15px;
+    margin: 0.70rem 0.75rem;
+    width: 20px;
+
+}
+
+.form-input_termos {
+    position: relative;
+    margin: 0.70rem 0.75rem;
+    height: 18px;
+    width: 25px;
+
+}
+
+
 label {
-    margin: 0 1.50rem ;
+    margin: 0.50rem 1rem;
+    margin-bottom: 0.25px;
     
 }
 
 select {
-    margin: 1rem 1.50rem ;
-    padding: 1rem;
+    margin: 1rem ;
+    padding: 0.50rem;
 
 }
 
 .form-container_botao {
     background-color:#9667e0;
     color: #f5f3fc;
-    font-size: 20px;
-    margin: 1rem 1.50rem ;
-    padding: 1rem;
+    font-size: 15px;
+    margin: 1rem ;
+    padding: 0.75rem;
     text-transform: uppercase;
 
 }
@@ -75,5 +92,6 @@ select {
 
 .container-imagem {
     width: 100vh;
-    margin: 2rem 2rem;
+    height: 900px;
+    margin: 0 auto;
 }
